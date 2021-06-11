@@ -1,7 +1,7 @@
 import React from 'react' 
 
 export const List = ({ list ,users }) => {
-  console.log(list);
+  
   return (
     <table>
       <thead>

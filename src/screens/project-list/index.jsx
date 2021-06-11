@@ -21,7 +21,6 @@ export const ProjectListScreen = () => {
     });
   }, []);
   useEffect(() => {
-      console.log("param: ",param);
     fetch(
       `${apiurl}/projects?${qs.stringify(cleanObject(param) )}`
     ).then(async (response) => {
